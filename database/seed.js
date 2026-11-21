@@ -17,7 +17,7 @@ db.run(`
     ('CS201', 'Data Structures', 4, 'Study of fundamental data structures and algorithms', 'Spring 2025')
 `)
 
-db.all('SELECT * FROM products', (err, rows) => { 
+db.all('SELECT * FROM courses', (err, rows) => { 
     console.log(rows); 
 });
 
